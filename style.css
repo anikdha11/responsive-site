@@ -121,7 +121,7 @@ a {
 .footer-logo img:hover  {
 border: 5px solid rgb(9, 165, 238);
   }
-}
+
 /* responsive for mobile device */
 
 @media only screen and (max-width: 688px) {
