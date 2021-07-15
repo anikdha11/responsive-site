@@ -6,6 +6,9 @@ body {
 }
 
 /* header styles */
+.nav-bar{
+  display: none;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -160,10 +163,19 @@ a {
 @media only screen and (max-width: 688px) {
   body {
     background-color: rgb(247, 244, 241);
-    overflow-x: hidden;
+   
   }
-
+  .nav-bar{
+    display:inline;
+   color: rgb(255, 253, 253);
+    font-size: 18px;
+    margin-left: 10px;
+    overflow-x: hidden;
+   
+   
+  }
   header {
+    margin-top: 20;
     width: 360px;
     height: 695px;
     grid-template-columns: repeat(1, 1fr);
